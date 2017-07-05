@@ -1,0 +1,11 @@
+html {
+    --main-bg: papayawhip;
+    --main-text: chocolate;
+}
+body {
+    font: 400 18px/1.5 Helvetica,Arial,sans-serif;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    background-color: var(--main-bg);
+    color: var(--main-text);
+}
