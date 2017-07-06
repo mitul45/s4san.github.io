@@ -8,22 +8,27 @@
     </head>
     <body>
         <main id="home-container">
-            <header>Welcome to the holy grail of CSS Layouts!</header>
-            <article>
+            <header class="grid-item">Welcome to the holy grail of CSS Layouts!</header>
+            <article class="grid-item">
                 I wish to show you the marvel that CSS Grids are with this simple holy grail layout
                 that is entirely responsive and created with nothing but CSS.
             </article>
-            <nav>
-                <ul>
-                    <li>CSS Grids - W3C Spec</li>
-                    <li>CSS Grids - CSS-tricks</li>
+            <nav class="grid-item grid-item--column">
+                <h3>Useful Links</h3>
+                <ul class="unstyled-list">
+                    <li>
+                        <a href="https://www.w3.org/TR/css-grid-1">W3C Spec</a>
+                    </li>
+                    <li>
+                        <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-tricks</a>
+                    </li>
                 </ul>
             </nav>
-            <aside>
+            <aside class="grid-item">
                 I would like to put up some ads here, if possible. Wait! WTF am I talking about?
                 There aren't going to be any ads here, just kidding.
             </aside>
-            <footer>
+            <footer class="grid-item">
                 Created with <3 by s4san.
             </footer>
         </main>
