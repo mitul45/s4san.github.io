@@ -3,13 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Use fetch api with async and await</title>
+        <link rel="icon" href="/favicon.png">
         <link rel="stylesheet" href="./index.css">
         <script src="./index.js" defer></script>
     </head>
     <body>
+        <h1>Examples that use fetch api with async and await.</h1>
+        <h2>Here's a GET request</h2>
         <p>
-            I use httpbin's IP API to fetch your IP.
-            Here is what I got: <div id="retrieved-ip">Loading...</div>
+            Requesting your IP: <span id="retrieved-ip" class="response">Loading...</span>
+            <br>
+            <small>* Fret not, I aint tracking</small>
+        </p>
+        <h2>Here's a POST request</h2>
+        <p>
+            POSTing the value of &pi;: <span id="retrieved-pi" class="response">Loading...</span>
+        </p>
+        <h2>Here's a 404'd request</h2>
+        <p>
+            Error response: <span id="retrieved-err" class="response">Loading...</span>
         </p>
     </body>
 </html>

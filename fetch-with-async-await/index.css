@@ -25,9 +25,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-#retrieved-ip {
+.response {
     padding-left: var(--gutter);
     color: var(--higlight-text);
 }
