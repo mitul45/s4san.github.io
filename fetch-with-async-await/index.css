@@ -1,0 +1,33 @@
+html {
+    --body-bg: papayawhip;
+    --body-text: chocolate;
+    --higlight-text: tomato;
+    --main-bg: #009688;
+    --header-bg: #80CBC4;
+    --footer-bg: #80CBC4;
+    --nav-bg: #00695C;
+    --aside-bg: #00695C;
+    --article-bg: #009688;
+    --main-text: #fff;
+    --alt-text: #111;
+    --gutter: 1em;
+}
+
+body {
+    font: 600 18px/1.5 Helvetica,Arial,sans-serif;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    background-color: var(--body-bg);
+    color: var(--body-text);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#retrieved-ip {
+    padding-left: var(--gutter);
+    color: var(--higlight-text);
+}
