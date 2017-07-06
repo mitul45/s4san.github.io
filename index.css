@@ -46,11 +46,11 @@ a {
     color: var(--main-text);
 }
 
-a::active, a::hover {
+a:active, a:hover {
     color: var(--main-text);
 }
 
-a::visited {
+a:visited {
     color: var(--main-text);
     font-weight: 300;
 }
